@@ -1,0 +1,18 @@
+<form (ngSubmit)="getAccessToken(authRequest)">
+  <table>
+    <tr>
+      <td>Username</td>
+      <td><input type="text" name="username" [(ngModel)]="authRequest.username"></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><input type="text" name="password" [(ngModel)]="authRequest.password"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button>Submit</button></td>
+    </tr>
+  </table>
+</form>
+
+{{response}}

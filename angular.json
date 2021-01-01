@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "jwt-demo"
+  "defaultProject": "jwt-demo",
+  "cli": {
+    "analytics": "6d313476-f20c-4607-bc14-26e639f88008"
+  }
 }
